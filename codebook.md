@@ -6,27 +6,35 @@ Dataset downloaded and extracted under the folder called _UCI HAR Dataset_
 **2. Assign each data to variables**
 
 _features_ <- _features.txt_ : "561 rows, 2 columns"
+
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
 _activities_ <- _activity_labels.txt_ : 6 rows, 2 columns
+
 List of activities performed when the corresponding measurements were taken and its codes (labels)
 
 _subject_test_ <- _test/subject_test.txt_ : 2947 rows, 1 column
+
 contains test data of 9/30 volunteer test subjects being observed
 
 _x_test_ <- _test/X_test.txt_ : 2947 rows, 561 columns
+
 contains recorded features test data
 
 _y_test_ <- _test/y_test.txt_ : 2947 rows, 1 columns
+
 contains test data of activities’code labels
 
 _subject_train_ <- _test/subject_train.txt_ : 7352 rows, 1 column
+
 contains train data of 21/30 volunteer subjects being observed
 
 _x_train_ <- _test/X_train.txt_ : 7352 rows, 561 columns
+
 contains recorded features train data
 
 _y_train_ <- _test/y_train.txt_ : 7352 rows, 1 columns
+
 contains train data of activities’code labels
 
 **3. Merges the training and the test sets to create one data set**
